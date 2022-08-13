@@ -11,7 +11,7 @@ import Navbar from "../Components/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <InfoBar />
       <Navbar />
       <Welcome />

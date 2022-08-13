@@ -1,7 +1,9 @@
 import React from "react";
 import Laptop from "../../assets/clement.jpg";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigation = useNavigate();
   return (
     <div className="w-screen h-[30rem]">
       <div className="grid grid-cols-2 items-center h-full">
@@ -22,7 +24,10 @@ const About = () => {
               aliquip pariatur et occaecat ea aliqua.
             </p>
             <span>
-              <button className="px-8 my-3  rounded-full bg-sky-500 text-white py-2">
+              <button
+                onClick={() => navigation("/books/123")}
+                className="px-8 my-3  rounded-full bg-sky-500 text-white py-2"
+              >
                 View Now
               </button>
             </span>

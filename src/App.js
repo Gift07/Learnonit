@@ -1,10 +1,11 @@
-import Home from "./Pages/Home";
+import { BrowserRouter } from "react-router-dom";
+import Animated from "./animated";
 
 function App() {
   return (
-    <div className="w-screen h-screen font-poppins">
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Animated />
+    </BrowserRouter>
   );
 }
 

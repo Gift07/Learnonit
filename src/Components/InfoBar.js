@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const InfoBar = () => {
   return (
@@ -12,7 +13,9 @@ const InfoBar = () => {
           <h1>Wish list</h1>
           <h1>Articles</h1>
           <h1>New entry</h1>
-          <h1>Login</h1>
+          <Link to="user/sign-in">
+            <h1>Login</h1>
+          </Link>
         </span>
         <hr className=" bg-white h-6 w-[0.2px]" />
         <div className="flex items-center gap-x-1">

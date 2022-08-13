@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-screen bg-black py-10 text-white relative">
+    <div className="w-screen bg-black py-10 text-white relative ">
       <div className="absolute -top-3 px-3 ml-20 py-2 text-white bg-sky-500 text-sm ">
         <h1>Get In Touch</h1>
       </div>
